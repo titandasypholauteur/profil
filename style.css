@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
+
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Open Sans', sans-serif;
+  color: #575F7D;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+h1, h2, h3 {
+  color: rgb(39, 36, 46);
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.title-many-lines {
+  line-height: 30px;
+}
+
+a {
+  color: #498AF4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(50, 51, 53);
+}
+
+.container{
+  width: 600px;
+  margin: 50px auto;
+}
+
+.white-card {
+  background-color: white;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid rgb(220,220,220);
+  border-radius: 5px;
+  box-shadow: 30px 30px 30px rgba(0,0,0,0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.btn-blue{
+  background-color: #498AF4;
+  color: white;
+  font-weight: bold;
+  margin: 300px 20px;
+  padding: 8px;
+  border-radius: 5%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.subtitle-italic{
+  font-style: italic;
+}
+
+#intro p{
+  margin-bottom: 24px;
+}
+
+#footer a{
+  font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
